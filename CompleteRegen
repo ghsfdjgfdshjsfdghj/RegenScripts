@@ -1,3 +1,4 @@
+while true do "
 model = game.Workspace.BlackrockCastle
 messageText = "Regenerating Blackrock Castle..."
 
@@ -17,6 +18,7 @@ while true do
 	model.Parent = game.Workspace
 	model:makeJoints()
 	message.Parent = nil
+end
 
 model = game.Workspace.Hideout
 messageText = "Regenerating Thieves Den..."
@@ -37,6 +39,7 @@ while true do
 	model.Parent = game.Workspace
 	model:makeJoints()
 	message.Parent = nil
+end
 
 model = game.Workspace.LostTemple
 messageText = "Regenerating Lost Temple..."
@@ -57,7 +60,7 @@ while true do
 	model.Parent = game.Workspace
 	model:makeJoints()
 	message.Parent = nil
-
+end
 
 ramp = game.Workspace:findFirstChild("Overhead Ramp")
 trees = game.Workspace.Trees
@@ -80,7 +83,7 @@ while true do
 	trees = backup_trees:clone()
 	trees.Parent = game.Workspace
 	trees:makeJoints()
-
+end
 
 model = game.Workspace.Tower
 messageText = "Regenerating Tower..."
@@ -101,4 +104,4 @@ while true do
 	model.Parent = game.Workspace
 	model:makeJoints()
 	message.Parent = nil
-end
+end"
